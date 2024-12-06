@@ -1,0 +1,20 @@
+[
+    {
+        "name_of_location": "Central Park",
+        "description": "Take a leisurely stroll in the beautiful Central Park of Cluj-Napoca. Enjoy the greenery, flowers, and peaceful atmosphere. You can also rent a boat and relax on the lake.",
+        "budget_breakdown": "Cost: 8 RON per boat rental",
+        "wellbeing_impact": "Walking in nature has been proven to reduce stress levels, improve mood, and boost overall well-being. It can also help in relaxation and mental clarity."
+    },
+    {
+        "name_of_location": "Botanical Garden",
+        "description": "Visit the Botanical Garden for a calm and serene experience surrounded by various plant species. Take a slow walk through the gardens and enjoy the beauty of nature.",
+        "budget_breakdown": "Cost: 5 RON entrance fee per person",
+        "wellbeing_impact": "Spending time in a botanical garden can provide a sense of tranquility and connection with nature, which can have a positive impact on mental well-being. It also offers the opportunity for gentle physical activity and relaxation."
+    },
+    {
+        "name_of_location": "Herastrau Park",
+        "description": "Explore the Herastrau Park, a large green space with walking paths, trees, and a lake. Take a casual walk around the park, enjoy the fresh air, and maybe have a picnic by the water.",
+        "budget_breakdown": "Cost: Free entry",
+        "wellbeing_impact": "Being in a natural environment like Herastrau Park can improve mood, reduce feelings of anxiety, and promote relaxation. Walking in the park can also help in reducing stress levels and enhancing mental clarity."
+    }
+]

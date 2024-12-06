@@ -1,0 +1,20 @@
+[
+    {
+        "name_of_location": "Central Park",
+        "description": "Central Park is a beautiful green oasis in the heart of Cluj-Napoca, perfect for a leisurely stroll or a relaxing picnic. You can enjoy the scenic views, feed the ducks in the lake, or simply unwind in nature.",
+        "budget_breakdown": "Free activity, no cost involved",
+        "wellbeing_impact": "Spending time in nature has been proven to reduce stress levels, improve mood, and increase overall well-being. It offers a peaceful environment for relaxation and rejuvenation."
+    },
+    {
+        "name_of_location": "Botanical Garden",
+        "description": "The Botanical Garden in Cluj-Napoca is a serene place to explore a variety of plant species from around the world. You can take a leisurely walk among the greenery, admire the colorful flowers, and breathe in the fresh air.",
+        "budget_breakdown": "Entrance fee of 5 per person",
+        "wellbeing_impact": "Being surrounded by nature has a calming effect on the mind, reducing anxiety and promoting mental clarity. Walking in the garden can also help improve physical health by encouraging gentle exercise."
+    },
+    {
+        "name_of_location": "Hoia Baciu Forest",
+        "description": "Hoia Baciu Forest is known for its mysterious reputation and beautiful natural surroundings. You can take a relaxed walk through the forest, explore the unique flora and fauna, and immerse yourself in a tranquil environment.",
+        "budget_breakdown": "Free activity, no cost involved",
+        "wellbeing_impact": "Being in a forest setting has been shown to lower blood pressure, reduce stress hormones, and boost the immune system. It provides a sense of peace and connection with nature, enhancing overall well-being."
+    }
+]

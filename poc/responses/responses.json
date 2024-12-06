@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Exploring the Central Park in Cluj-Napoca",
+        "description": "Take a leisurely walk around the beautiful Central Park in Cluj-Napoca. Enjoy the fresh air, the greenery, and the peaceful atmosphere.",
+        "budget_breakdown": "Free activity, just bring some snacks and water.",
+        "wellbeing_impact": "Low physical activity level, great for relaxation and enjoying nature."
+    },
+    {
+        "name": "Art Exploration in Cluj-Napoca",
+        "description": "Embark on a journey through the art scene of Cluj-Napoca, exploring different galleries and cultural spaces.",
+        "budget_breakdown": "Entrance fees to galleries: $30, Snacks and drinks: $20",
+        "wellbeing_impact": "This art exploration journey will positively impact your mental wellbeing by providing inspiration, creativity, and a sense of cultural enrichment. Additionally, walking through galleries and cultural spaces will offer a moderate level of physical activity, keeping you active and energized throughout the day."
+    },
+    {
+        "name_of_location": "Cluj-Napoca Art Museum and Tailors' Bastion",
+        "description": "Visit the Cluj-Napoca Art Museum to explore Romanian and European art pieces, then head to Tailors' Bastion, a historic fortification offering panoramic views of the city.",
+        "budget_breakdown": "Entrance fee to Cluj-Napoca Art Museum: 20, Entrance fee to Tailors' Bastion: 20",
+        "wellbeing_impact": "This cultural journey will provide mental stimulation and relaxation, allowing you to appreciate art and history which can contribute positively to your mental health. The low physical activity level will offer a leisurely experience, giving you time to unwind and enjoy the surroundings."
+    },
+    {
+        "name_of_location": "Turda Salt Mine",
+        "description": "Visit the impressive Turda Salt Mine, an underground amusement park located in Turda, near Cluj-Napoca. Explore the salt mine's chambers, salt lakes, and underground attractions such as mini-golf, bowling, and boating on the underground lake.",
+        "budget_breakdown": "Cost of activity: 25 euros per person, Transportation cost: 10 euros per person",
+        "wellbeing_impact": "Visiting the Turda Salt Mine can have a positive impact on your wellbeing by providing a unique and fascinating experience that can reduce stress, promote relaxation, and awe-inspiring beauty of the underground world. The moderate physical activity involved in exploring the mine can also contribute to physical health benefits."
+    },
+    {
+        "name_of_location": "Cluj-Napoca Old Town",
+        "description": "Explore the historic Cluj-Napoca Old Town with its charming architecture, churches, and museums. Stroll through the picturesque streets and soak in the cultural and historical significance of the area.",
+        "budget_breakdown": "Since the budget is 0, this activity is free of charge.",
+        "wellbeing_impact": "Exploring the Old Town can have a positive impact on your mental wellbeing by offering a break from the routine and providing a sense of discovery. The moderate physical activity involved in walking around the area can also contribute to improved physical health."
+    }
+]

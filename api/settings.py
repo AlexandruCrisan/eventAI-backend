@@ -32,12 +32,13 @@ DEBUG = True
 
 CORS_ALLOW_ALL_ORIGINS = True
 ALLOWED_HOSTS = []
-
+AUTH_USER_MODEL = 'api.User'
 
 # Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
+    'api',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -45,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
+    
 ]
 
 MIDDLEWARE = [

@@ -1,0 +1,20 @@
+[
+    {
+        "name_of_location": "Cluj-Napoca National Museum of Art",
+        "description": "Explore the impressive collection of Romanian and European art at the Cluj-Napoca National Museum of Art. Admire paintings, sculptures, and decorative art pieces from various time periods.",
+        "budget_breakdown": "Entrance fee: 20 lei",
+        "wellbeing_impact": "Visiting art museums has been shown to reduce stress and improve cognitive skills. It offers a peaceful and intellectually stimulating environment."
+    },
+    {
+        "name_of_location": "Cluj-Napoca Botanical Garden",
+        "description": "Take a leisurely stroll through the beautiful Cluj-Napoca Botanical Garden. Enjoy the diverse plant species, peaceful atmosphere, and charming greenhouses.",
+        "budget_breakdown": "Entrance fee: 10 lei",
+        "wellbeing_impact": "Spending time in nature has been proven to reduce anxiety and improve mood. The Botanical Garden provides a calming and rejuvenating experience."
+    },
+    {
+        "name_of_location": "Cluj-Napoca Art Museum",
+        "description": "Immerse yourself in the local art scene at the Cluj-Napoca Art Museum. Discover contemporary artworks, photography exhibitions, and cultural events.",
+        "budget_breakdown": "Entrance fee: 15 lei",
+        "wellbeing_impact": "Engaging with art and creativity can enhance emotional well-being and foster self-expression. The Art Museum offers a platform for cultural enrichment and inspiration."
+    }
+]

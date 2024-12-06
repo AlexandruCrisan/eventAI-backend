@@ -1,0 +1,8 @@
+{
+        "location": "Cluj-Napoca",
+        "activity_type": "outdoor",
+        "budget": "10",
+        "group_size": "2",
+        "duration": "2-3 hours",
+        "level_of_physical_activity": "low"
+}
