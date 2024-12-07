@@ -64,14 +64,17 @@ class JourneyGenerateAPIView(APIView):
                 {"role": "system", "content": initial_msg},
                 {"role": "user", "content": prompt}
             ],
-            max_tokens=400,
+            max_tokens=600,
             temperature=0.7,
         )
 
         # print(response.choices[0].message.content)
         try:
             result_json = json.loads(response.choices[0].message.content.strip())
-            # print(f"{result_json=}")
+            print(f"{result_json=}")
+            for result in result_json:
+                result["maps_link"] = self.__get_google_maps_link(result["name_of_location"], "Cluj-Napoca")
+
         except json.JSONDecodeError:
             result_json = {"error": "Invalid JSON format returned by AI."}
 

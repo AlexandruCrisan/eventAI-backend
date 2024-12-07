@@ -39,6 +39,8 @@ class JourneyGenerateResponseSerializer(serializers.Serializer):
     description = serializers.CharField(max_length=255)
     budget_breakdown = serializers.CharField(max_length=255)
     wellbeing_impact = serializers.CharField(max_length=255)
+    maps_link = serializers.CharField(max_length=255)
+    tags = serializers.ListField(child=serializers.CharField(max_length=255))
 
 # class JourneyEntrySerializer
 
