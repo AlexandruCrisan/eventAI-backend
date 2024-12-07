@@ -39,6 +39,7 @@ AUTH_USER_MODEL = 'api.User'
 INSTALLED_APPS = [
     'django.contrib.admin',
     'api',
+    'journey',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
