@@ -24,7 +24,7 @@ class Journey(models.Model):
     description = models.TextField()
     budget_breakdown = models.CharField(max_length=255)
     wellbeing_impact = models.CharField(max_length=255)
-    rating = models.CharField(max_length=255)
+    rating = models.CharField(max_length=255, null=True)
     how_felt = models.TextField(blank=True, null=True)
 
     def __str__(self):
