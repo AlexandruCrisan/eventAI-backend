@@ -42,7 +42,7 @@ class JourneyGenerateAPIView(APIView):
         }}
         In the "wellbeing_impact" field you have to talk about how it possitively affects the individual's mental and physical health.
         In the "name_of_location" field you have to talk about the specific name of the location.
-        The budget breakdown should be contain the cost of the activity and also include the currency . Make sure to take into account the user's total budget
+        The budget breakdown should be contain the cost of the activity. Make sure to take into account the user's total budget
         Make sure the location is the same as the one provided in the input.
         In the "tags" field you have to include the tags that describe the activity. For example, if the activity is hiking, you can include the tag "outdoor" or "nature".
         """
@@ -54,6 +54,7 @@ class JourneyGenerateAPIView(APIView):
         - Group size: {data['group_size']}
         - Duration: {data['duration']}
         - Level of physical activity: {data['level_of_physical_activity']}
+        - Additional information: {data['additional_information']}        
         """
 
         client = openai.OpenAI()

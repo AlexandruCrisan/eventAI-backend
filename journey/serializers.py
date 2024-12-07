@@ -32,7 +32,7 @@ class JourneyGenerateSerializer(serializers.Serializer):
     group_size = serializers.CharField(max_length=255)
     duration = serializers.CharField(max_length=255)
     level_of_physical_activity = serializers.ChoiceField(choices=Journey.PysicalActivityLevelChoices.choices)
-
+    additional_information = serializers.CharField(max_length=255)
 
 class JourneyGenerateResponseSerializer(serializers.Serializer):
     name_of_location = serializers.CharField(max_length=255)
