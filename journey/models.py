@@ -20,13 +20,13 @@ class Journey(models.Model):
     # journey_id = models.AutoField(primary_key=True)
     # user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="journeys")
     tags = models.JSONField(default=list)
-    name_of_location = models.CharField(max_length=255)
+    name_of_location = models.CharField()
     description = models.TextField()
-    budget_breakdown = models.CharField(max_length=255)
-    wellbeing_impact = models.CharField(max_length=255)
+    budget_breakdown = models.CharField()
+    wellbeing_impact = models.CharField()
     rating = models.CharField(max_length=255, null=True)
     how_felt = models.TextField(blank=True, null=True)
-    maps_link = models.CharField(max_length=255)
+    maps_link = models.CharField()
 
     def __str__(self):
         return self.name_of_location

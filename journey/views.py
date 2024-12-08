@@ -40,11 +40,11 @@ class JourneyGenerateAPIView(APIView):
             "wellbeing_impact": "string",
             "tags": ["string"],
         }}
-        In the "wellbeing_impact" field you have to talk about how it possitively affects the individual's mental and physical health.
-        In the "name_of_location" field you have to talk about the specific name of the location.
+        In the "wellbeing_impact" field you have to talk about how it possitively affects the individual's mental and physical health. Make sure you use a rich vocabulary for this section.
+        In the "name_of_location" field you have to talk about the specific name of the location but dont also include the city name.
         The budget breakdown should be contain the cost of the activity. Make sure to take into account the user's total budget
         Make sure the location is the same as the one provided in the input.
-        In the "tags" field you have to include the tags that describe the activity. For example, if the activity is hiking, you can include the tag "outdoor" or "nature".
+        In the "tags" field you have to include the tags that describe the activity. For example, if the activity is "hiking", you can include the tag "outdoor" or "nature". Maximum 3 tags
         """
 
         prompt = f"""
@@ -71,8 +71,9 @@ class JourneyGenerateAPIView(APIView):
 
         # print(response.choices[0].message.content)
         try:
+            print(f"{response.choices[0].message.content.strip()=}")
             result_json = json.loads(response.choices[0].message.content.strip())
-            print(f"{result_json=}")
+
             for result in result_json:
                 result["maps_link"] = self.__get_google_maps_link(result["name_of_location"], "Cluj-Napoca")
 

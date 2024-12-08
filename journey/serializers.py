@@ -26,20 +26,21 @@ class JourneyUpdateSerializer(serializers.ModelSerializer):
 
 
 class JourneyGenerateSerializer(serializers.Serializer):
-    location = serializers.CharField(max_length=255)
-    activity_type = serializers.CharField(max_length=255)
-    budget = serializers.CharField(max_length=255)
+    location = serializers.CharField()
+    activity_type = serializers.CharField()
+    budget = serializers.CharField()
     group_size = serializers.CharField(max_length=255)
     duration = serializers.CharField(max_length=255)
     level_of_physical_activity = serializers.ChoiceField(choices=Journey.PysicalActivityLevelChoices.choices)
-    additional_information = serializers.CharField(max_length=255)
+    additional_information = serializers.CharField(max_length=255, allow_blank=True)
+
 
 class JourneyGenerateResponseSerializer(serializers.Serializer):
-    name_of_location = serializers.CharField(max_length=255)
-    description = serializers.CharField(max_length=255)
-    budget_breakdown = serializers.CharField(max_length=255)
-    wellbeing_impact = serializers.CharField(max_length=255)
-    maps_link = serializers.CharField(max_length=255)
+    name_of_location = serializers.CharField()
+    description = serializers.CharField()
+    budget_breakdown = serializers.CharField()
+    wellbeing_impact = serializers.CharField()
+    maps_link = serializers.CharField()
     tags = serializers.ListField(child=serializers.CharField(max_length=255))
 
 # class JourneyEntrySerializer
