@@ -65,7 +65,7 @@ class JourneyGenerateAPIView(APIView):
                 {"role": "system", "content": initial_msg},
                 {"role": "user", "content": prompt}
             ],
-            max_tokens=600,
+            max_tokens=1000,
             temperature=0.7,
         )
 
