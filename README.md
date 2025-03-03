@@ -5,7 +5,7 @@
 
 
 
-![error image](https://github.com/AlexandruCrisan/eventAI/blob/master/Capture.PNG?raw=true) 
+![error image](https://github.com/AlexandruCrisan/eventAI-backend/blob/master/Capture.PNG?raw=true) 
 ---
 
 ## 🌟 Features
@@ -40,7 +40,7 @@ Click the link above to watch eventAI in action!
 This project is split into two parts:
 
 - 💻 **Frontend:** [eventAI Frontend](https://github.com/alessela/polihack24-frontend)  
-- 🔧 **Backend:** [eventAI Backend](https://github.com/AlexandruCrisan/polihack24-backend)
+- 🔧 **Backend:** [eventAI Backend](https://github.com/AlexandruCrisan/eventAI-backend)
 
 ---
 
